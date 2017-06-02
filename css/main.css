@@ -45,6 +45,34 @@ nav{
   width: 95vw;
   height: auto;
   margin-top: 8.5rem;
+  padding-bottom: 1rem;
+  border: 1px solid black;
+}
+
+.notice{
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+#up_next{
+  background-color: #0B1942;
+  color: #fff;
+  margin-top: -1.3rem;
+  height: auto;
+  width: 95vw;
+  padding: 1rem;
+}
+
+#up_next h1{
+  border: 1px solid white;
+  margin-top: 0;
+}
+
+.marquee{
+  background-color: #E2E2E2;
+  color: black;
+  border: 1px solid white;
+  margin-bottom: 1rem;
 }
 
 /*******************/
