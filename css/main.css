@@ -2,24 +2,31 @@
   /*box-sizing: border-box;*/
 }
 
+/*****************************/
+/***  WIREFRAMING DELETE   ***/
+/***    BEFORE DEPLOY      ***/
+/*****************************/
+div{
+  text-align: center;
+  padding: 10px;
+}
+
 /***MOBILE (DEFAULT) STYLES***/
 
 body{
-  margin: 0rem 0.35rem;
+  display: block;
+  background-color: #ddd;
+  margin: auto;
+  width: 95vw;
 }
 
 nav{
+  background-color: #7DDFE8;
   border: 1px solid black;
   display: flex;
   position: fixed;
   height: auto;
-  width: 99vw;
-  margin: auto;
-}
-
-div{
-  text-align: center;
-  padding: 10px;
+  width: 95vw;
 }
 
 #logo{
