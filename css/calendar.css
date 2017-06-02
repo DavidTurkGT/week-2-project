@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+}
+
+/*****************************/
+/***  WIREFRAMING DELETE   ***/
+/***    BEFORE DEPLOY      ***/
+/*****************************/
+div{
+  text-align: center;
+  padding: 10px;
+  height: auto;
+}
+
+.body_fill{
+  margin-top: 8.5rem;
+  height: 10rem;
+  width: 95vw;
+  background-color: white;
+}
+
+/***MOBILE (DEFAULT) STYLES***/
+
+body{
+  display: block;
+  background-color: #ddd;
+  margin: auto;
+  width: 95vw;
+}
+
+nav{
+  background-color: #7DDFE8;
+  border: 1px solid black;
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: auto;
+  width: 95vw;
+}
+
+#logo{
+  flex:1 0 30%;
+  border: 1px soilid red;
+  background-color: red;
+}
+
+.link_container{
+  flex: 1 0 75%;
+}
+
+footer{
+  background-color: #7DDFE8;
+  height: auto;
+  width: 95vw;
+}
+
+
+/*******************/
+/***TABLET STYLES***/
+/*******************/
+@media (min-width:545px){
+  #logo{
+    background-color: green;
+  }
+
+  #heading{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  #heading h2{
+    flex:1 0 100%;
+  }
+
+  .link_container{
+    display: flex;
+    margin: -0.7rem;
+  }
+
+  .nav_link{
+    width: auto;
+    flex:0 1 15%;
+    background-color: red;
+    border: 1px solid;
+  }
+
+  footer{
+    display: flex;
+  }
+
+  #copyright{
+    flex: 1 0 20%;
+    text-align: right;
+  }
+
+}
+
+
+/*DESKTOP STYLES*/
+@media (min-width:769px){
+  #logo{
+    background-color: blue;
+  }
+
+}
