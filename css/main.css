@@ -1,6 +1,8 @@
 *{
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
+
+/***MOBILE (DEFAULT) STYLES***/
 
 body{
   margin: 0rem 0.35rem;
@@ -8,8 +10,40 @@ body{
 
 nav{
   border: 1px solid black;
+  display: flex;
   position: fixed;
-  height: 2rem;
+  height: auto;
   width: 99vw;
   margin: auto;
+}
+
+div{
+  text-align: center;
+  padding: 10px;
+}
+
+#logo{
+  flex:1 0 30%;
+  border: 1px soilid red;
+  background-color: red;
+}
+
+.link_container{
+  flex: 1 0 75%;
+}
+
+/*******************/
+/***TABLET STYLES***/
+/*******************/
+@media (min-width:545px){
+  #logo{
+    background-color: green;
+  }
+}
+
+/*DESKTOP STYLES*/
+@media (min-width:769px){
+  #logo{
+    background-color: blue;
+  }
 }
