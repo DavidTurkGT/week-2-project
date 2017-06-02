@@ -12,13 +12,6 @@ div{
   height: auto;
 }
 
-.body_fill{
-  margin-top: 8.5rem;
-  height: 10rem;
-  width: 95vw;
-  background-color: white;
-}
-
 /***MOBILE (DEFAULT) STYLES***/
 
 body{
@@ -46,6 +39,54 @@ nav{
 
 .link_container{
   flex: 1 0 75%;
+}
+
+.main{
+  margin-top: 8.5rem;
+  height: auto;
+  width: 95vw;
+  background-color: white;
+}
+
+.heading{
+  border: 1px solid;
+}
+
+.calendar{
+  border: 1px solid;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  flex-wrap: wrap;
+  background-color: #0B1942;
+  color: white;
+  height: 50vh;
+}
+
+.calendar>h2{
+  flex:1 100%;
+}
+
+.calendar_row{
+  flex:1 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.day{
+  flex:0 1 15%;
+  display: flex;
+  background-color: white;
+  border:1px solid #0B1942;
+  padding: 0;
+}
+
+.day p{
+  background-color: #0B1942;
+  margin: 0;
+  padding: 5px;
+  justify-content: flex-start;
 }
 
 footer{
