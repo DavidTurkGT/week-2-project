@@ -89,7 +89,45 @@ footer{
   #logo{
     background-color: green;
   }
+
+  #heading{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #heading h2{
+    flex:1 0 100%;
+  }
+
+  .notice{
+    flex:0 1 25%;
+    margin: 1rem;
+  }
+
+  .link_container{
+    display: flex;
+    margin: -0.7rem;
+  }
+
+  .nav_link{
+    width: auto;
+    flex:0 1 15%;
+    background-color: red;
+    border: 1px solid;
+  }
+
+  footer{
+    display: flex;
+  }
+
+  #copyright{
+    flex: 1 0 20%;
+    text-align: right;
+  }
+
 }
+
 
 /*DESKTOP STYLES*/
 @media (min-width:769px){
