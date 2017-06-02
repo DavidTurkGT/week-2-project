@@ -94,6 +94,8 @@ footer{
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+
   }
 
   #heading h2{
@@ -101,8 +103,8 @@ footer{
   }
 
   .notice{
-    flex:0 1 25%;
     margin: 1rem;
+    flex: 1;
   }
 
   .link_container{
@@ -134,4 +136,23 @@ footer{
   #logo{
     background-color: blue;
   }
+
+  #up_next{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  #up_next h1{
+    flex:1 0 100%;
+    margin: 1rem;
+  }
+
+  .marquee{
+    margin: 1rem;
+    flex: 1;
+  }
+
 }
