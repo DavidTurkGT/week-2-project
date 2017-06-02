@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0rem 0.35rem;
+}
+
+nav{
+  border: 1px solid black;
+  position: fixed;
+  height: 2rem;
+  width: 99vw;
+  margin: auto;
+}
