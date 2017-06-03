@@ -12,13 +12,6 @@ div{
   height: auto;
 }
 
-.body_fill{
-  margin-top: 8.5rem;
-  height: 10rem;
-  width: 95vw;
-  background-color: white;
-}
-
 /***MOBILE (DEFAULT) STYLES***/
 
 body{
@@ -48,6 +41,20 @@ nav{
   flex: 1 0 75%;
 }
 
+#form_part_2{
+  background-color: #fff;
+  width: 95vw;
+  height: auto;
+  /*margin-top: 7.5rem;*/
+  padding-bottom: 1rem;
+  border: 1px solid black;
+  padding: 1.3rem;
+}
+
+#heading > div, #form_part_2 > div{
+  margin: 1rem;
+}
+
 footer{
   background-color: #7DDFE8;
   height: auto;
@@ -71,8 +78,12 @@ footer{
 
   }
 
-  #heading h2{
-    flex:1 0 100%;
+  .join_heading{
+    flex: 1 100%;
+  }
+
+  .picture_fieldset, .form_part_1{
+    flex: 1 40%;
   }
 
   .link_container{
@@ -103,6 +114,19 @@ footer{
 @media (min-width:769px){
   #logo{
     background-color: blue;
+  }
+
+  .picture_fieldset{
+    flex: 0 1 30%;
+  }
+
+  .form_part_1{
+    display: flex;
+    flex: 0 1 60%;
+  }
+
+  .personal_fieldset, .password_fieldset{
+    flex: 1 45%;
   }
 
 }
