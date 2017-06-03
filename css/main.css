@@ -75,6 +75,14 @@ nav{
   color: black;
   border: 1px solid white;
   margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.marquee > div{
+  flex: 1 40%;
+  margin: 0.5rem;
+  padding: 0;
 }
 
 footer{
@@ -120,6 +128,10 @@ footer{
     border: 1px solid;
   }
 
+  .marquee{
+    flex-wrap: nowrap;
+  }
+
   footer{
     display: flex;
   }
@@ -154,6 +166,11 @@ footer{
   .marquee{
     margin: 1rem;
     flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .rashoman_picture{
+    height: auto;
   }
 
 }
