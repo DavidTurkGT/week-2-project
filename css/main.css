@@ -35,13 +35,12 @@ nav{
 }
 
 #logo{
-  flex:1 0 auto;
   background-color: #F5005B;
   padding: 10px;
 }
 
 #logo img{
-  height: 14vh;
+  height: 13vh;
   width: auto;
 }
 
@@ -75,7 +74,7 @@ nav{
   background-color: #fff;
   width: 95vw;
   height: auto;
-  margin-top: 18vh;
+  margin-top: 16vh;
   padding-bottom: 1rem;
   padding: 1.3rem;
 }
@@ -124,7 +123,6 @@ nav{
 .marquee{
   background-color: #E2E2E2;
   color: black;
-  border: 1px solid white;
   margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -137,7 +135,6 @@ nav{
 }
 
 .rashoman_picture img{
-  height: 33vh;
   width: auto;
 }
 
@@ -167,7 +164,7 @@ hr{
 }
 
 .marquee img{
-  height: 34vh;
+  height: 50vw;
   width: auto;
 }
 
@@ -193,16 +190,16 @@ footer{
   color: #fff;
 }
 
+#copyright p{
+  color: #fff;
+}
+
 /*******************/
 /***TABLET STYLES***/
 /*******************/
 @media (min-width:545px){
-  #logo{
-    background-color: green;
-  }
-
   #heading{
-    margin-top: 2rem;
+    margin-top: 16vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -226,8 +223,6 @@ footer{
   .nav_link{
     width: auto;
     flex:0 1 15%;
-    background-color: red;
-    border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,6 +230,14 @@ footer{
 
   .marquee{
     flex-wrap: nowrap;
+  }
+
+  .marquee img{
+    height: 28vw;
+  }
+
+  .rashoman_picture img{
+    height: 50vw;
   }
 
   footer{
@@ -251,9 +254,7 @@ footer{
 
 /*DESKTOP STYLES*/
 @media (min-width:769px){
-  #logo{
-    background-color: blue;
-  }
+
 
   #up_next{
     display: flex;
