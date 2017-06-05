@@ -12,7 +12,7 @@
   </head>
   <body>
     <nav>
-      <div id="logo">LOGO</div>
+      <div id="logo"><img src="../images/filmclub.png" alt="Film Club Logo"></div>
       <div class="link_container">
         <div class="nav_link home_link"><a href="../index.html">HOME</a></div>
         <div class="nav_link calendar_link"><a href="../calendar/index.html">CALENDAR</a></div>
@@ -24,43 +24,63 @@
       <div class="join_heading">
         <h1>Join Film Club</h1>
       </div>
-      <div class="picture_fieldset">
-        <div class="join_file_selector">
-          <p>File selector input</p>
-        </div>
-        <div class="profile_picture">
-          <p>profile picture</p>
-        </div>
-      </div>
-      <div class="form_part_1">
-        <div class="personal_fieldset">
-          <div class="name_input">
-            <p>Name input</p>
+      <form>
+        <fieldset class="picture_fieldset">
+          <div class="join_file_selector">
+            <label for="profile">profile picture</label><br>
+            <input type="file" name="profile_pic" value="" id="profile">
           </div>
-          <div class="email_input">
-            <p>Email input</p>
+          <div class="profile_picture">
+            <img src="../images/profile-placeholder.png" alt="Profile Placeholder">
           </div>
-        </div>
-        <div class="password_fieldset">
-          <div class="password_input">
-            <p>Password input</p>
+        </fieldset>
+        <fieldset class="form_part_1">
+          <div class="personal_fieldset">
+            <div class="name_input">
+              <label for="name">name</label><br>
+              <input type="text" name="name" value="">
+            </div>
+            <div class="email_input">
+              <label for="email">email</label><br>
+              <input type="email" name="email" value="">
+            </div>
           </div>
-          <div class="password_confirm">
-            <p>Confirm password</p>
+          <div class="password_fieldset">
+            <div class="password_input">
+              <label for="password">password</label><br>
+              <input type="password" name="password" value="">
+            </div>
+            <div class="password_confirm">
+              <label for="confirm">confirm password</label><br>
+              <input type="password" name="confirm" value="">
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div id="form_part_2">
-      <div class="genre_input">
-        <p>Genre Input</p>
-      </div>
-      <div class="addition_input">
-        <p>Addition input</p>
-      </div>
-      <div class="submit_button">
-        <p>submit button</p>
-      </div>
+        </fieldset>
+
+        <fieldset id="form_part_2">
+          <div class="genre_input">
+            <label for="genre">Which genres are you interested in?</label><br>
+            <input type="checkbox" name="genre" value="action" id="action"><label for="action">action</label><br>
+            <input type="checkbox" name="genre" value="adventure" id="adventure"><label for="adventure">adventure</label><br>
+            <input type="checkbox" name="genre" value="comedy" id="comedy"><label for="comedy">comedy</label><br>
+            <input type="checkbox" name="genre" value="drama" id="drama"><label for="drama">drama</label><br>
+            <input type="checkbox" name="genre" value="fantasy" id="fantasy"><label for="fantasy">fantasy</label><br>
+            <input type="checkbox" name="genre" value="historical" id="historical"><label for="historical">historical</label><br>
+            <input type="checkbox" name="genre" value="horror" id="horror"><label for="horror">horror</label><br>
+            <input type="checkbox" name="genre" value="mystery" id="mystery"><label for="mystery">mystery</label><br>
+            <input type="checkbox" name="genre" value="romance" id="romance"><label for="romance">romance</label><br>
+            <input type="checkbox" name="genre" value="science fiction" id="scifi"><label for="scifi">science fiction</label><br>
+            <input type="checkbox" name="genre" value="western" id="western"><label for="western">western</label><br>
+          </div>
+          <div class="addition_input">
+            <label for="additional">Additional input</label><br>
+            <textarea name="additional" rows="8" cols="80" id="additional"></textarea>
+          </div>
+          <div class="submit_button">
+            <input type="submit" name="submit" value="Join Film Club">
+          </div>
+        </fieldset>
+      </form>
     </div>
 
     <footer>
