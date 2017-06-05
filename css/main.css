@@ -198,12 +198,20 @@ footer{
 /***TABLET STYLES***/
 /*******************/
 @media (min-width:545px){
+
+  .nav{
+    height: 10vh;
+  }
+
   #heading{
-    margin-top: 16vh;
+    margin-top: 11vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
 
+  #logo img{
+    height: 8vh;
   }
 
   #heading h2{
