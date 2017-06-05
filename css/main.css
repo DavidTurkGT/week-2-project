@@ -275,8 +275,18 @@ footer{
     flex-wrap: wrap;
   }
 
+  #rashoman_marquee{
+    height: 40vh;
+  }
+
+  .rashoman_picture img{
+    height: 30vh;
+  }
+
   .rashoman_picture{
     height: auto;
   }
+
+
 
 }
