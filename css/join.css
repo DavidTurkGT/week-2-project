@@ -32,18 +32,50 @@ h1 {
     font-size: 0.8em;
 }
 
+.form_part_1 input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+.genre_input{
+  line-height: 2;
+  margin: 0;
+}
+
+.genre_input input + label{
+  margin-left: 5px;
+}
+
+textarea#additional {
+    width: 100%;
+    height: 7vh;
+}
+
+fieldset{
+  border: none;
+}
+
 #form_part_2{
   background-color: #fff;
-  width: 95vw;
+  width: 100%;
   height: auto;
   /*margin-top: 7.5rem;*/
   padding-bottom: 1rem;
-  border: 1px solid black;
-  padding: 1.3rem;
+  /*padding: 1.3rem;*/
 }
 
-#heading > div, #form_part_2 > div{
-  margin: 1rem;
+.submit_button{
+  margin-top: 2rem;
+}
+
+input[type="submit"] {
+    background-color: #F5005B;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 100;
 }
 
 footer{
@@ -59,13 +91,14 @@ footer{
 /*******************/
 @media (min-width:545px){
 
-
   #heading{
     margin-top: 2rem;
+  }
+
+  form{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 
   .join_heading{
@@ -73,9 +106,29 @@ footer{
   }
 
   .picture_fieldset, .form_part_1{
+    flex: 0 1 40%;
+  }
+
+  .profile_picture img{
+    height: 35vh;
+  }
+
+  .genre_input{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .genre_input > label{
+    flex: 1 100%;
+  }
+
+  .genre_input > div{
     flex: 1 40%;
   }
 
+  .additional_input{
+    margin-top: 1rem;
+  }
 
   footer{
     display: flex;
@@ -93,12 +146,27 @@ footer{
 @media (min-width:769px){
 
   .picture_fieldset{
+    flex: 0 1 35%;
+  }
+
+  .form_part_1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 54%;
+  }
+
+  .form_part_1 > div{
+    display: flex;
+    justify-content: space-between;
     flex: 0 1 30%;
   }
 
-  .form_part_1{
-    display: flex;
-    flex: 0 1 60%;
+  .personal_fieldset > div, .password_fieldset > div{
+    flex: 0 1 48%;
+  }
+
+  .genre_input > div{
+    flex: 1 33%;
   }
 
   .personal_fieldset, .password_fieldset{
