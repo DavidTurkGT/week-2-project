@@ -6,11 +6,6 @@
 /***  WIREFRAMING DELETE   ***/
 /***    BEFORE DEPLOY      ***/
 /*****************************/
-div{
-  text-align: center;
-  padding: 10px;
-  height: auto;
-}
 
 /***MOBILE (DEFAULT) STYLES***/
 
@@ -21,26 +16,6 @@ body{
   width: 95vw;
 }
 
-nav{
-  background-color: #7DDFE8;
-  border: 1px solid black;
-  display: flex;
-  position: fixed;
-  top: 0;
-  height: auto;
-  width: 95vw;
-}
-
-#logo{
-  flex:1 0 30%;
-  border: 1px soilid red;
-  background-color: red;
-}
-
-.link_container{
-  flex: 1 0 75%;
-}
-
 .main{
   margin-top: 8.5rem;
   height: auto;
@@ -49,7 +24,13 @@ nav{
 }
 
 .heading{
-  border: 1px solid;
+
+}
+
+.heading > h1{
+  font-weight: 200;
+  padding: 1.5rem;
+  font-size: 1.8em;
 }
 
 .calendar{
@@ -60,12 +41,16 @@ nav{
   flex-wrap: wrap;
   background-color: #0B1942;
   color: white;
-  height: 50vh;
+  height: 75vh;
+  width: 100%;
 }
 
 .calendar>h2{
   flex:1 100%;
+  color: #fff;
+  font-weight: 200;
   margin-top: -0.5rem;
+  padding: 0 1.2rem;
 }
 
 .calendar_row{
@@ -83,11 +68,17 @@ nav{
   padding: 0;
 }
 
+.colored{
+  background-color: #F5005B;
+}
+
 .day p{
   background-color: #0B1942;
+  color: #fff;
   margin: 0;
   padding: 5px;
   justify-content: flex-start;
+  height: 3.7vh;
 }
 
 footer{
@@ -106,7 +97,7 @@ footer{
   }
 
   .main{
-    margin-top: 2rem;
+    margin-top: 11vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -115,18 +106,6 @@ footer{
 
   #heading h2{
     flex:1 0 100%;
-  }
-
-  .link_container{
-    display: flex;
-    margin: -0.7rem;
-  }
-
-  .nav_link{
-    width: auto;
-    flex:0 1 15%;
-    background-color: red;
-    border: 1px solid;
   }
 
   footer{
