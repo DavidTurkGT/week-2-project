@@ -131,15 +131,55 @@ nav{
 }
 
 .marquee > div{
-  flex: 1 40%;
+  flex:0 1 40%;
   margin: 0.5rem;
   padding: 0;
 }
 
 .rashoman_picture img{
-  height: 28vh;
+  height: 33vh;
   width: auto;
 }
+
+.rashoman_info .film_title{
+  /*border-bottom: 1px solid black;*/
+  line-height: 2;
+}
+
+.rashoman_info a{
+  color: #00D5E7;
+  font-size: 1.5em;
+}
+
+hr{
+  border: 1px solid black;
+  margin: 1rem 0;
+}
+
+.discussion_points p{
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+.discussion_points ul{
+  line-height: 1.9;
+  list-style: circle;
+}
+
+.marquee img{
+  height: 34vh;
+  width: auto;
+}
+
+.marquee a{
+  color: #00D5E7;
+  font-size: 1.1em;
+}
+
+.marquee p{
+  line-height: 2.5;
+}
+
 
 footer{
   text-align: center;
