@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
+  color: #0B1942;
   margin: 0;
 }
 
@@ -35,18 +36,17 @@ nav{
 
 #logo{
   flex:1 0 auto;
-  border: 1px soilid red;
   background-color: #F5005B;
-  padding: 0.5rem 0.3rem;
+  padding: 10px;
 }
 
 #logo img{
-  height: 25vh;
+  height: 14vh;
   width: auto;
 }
 
 .link_container{
-  flex: 1 0 75%;
+  flex: 1 0 58%;
   margin: 0;
 }
 
@@ -75,20 +75,38 @@ nav{
   background-color: #fff;
   width: 95vw;
   height: auto;
-  margin-top: 7.5rem;
+  margin-top: 18vh;
   padding-bottom: 1rem;
-  border: 1px solid black;
   padding: 1.3rem;
 }
 
+#heading h2{
+  font-weight: 200;
+  padding-bottom: 1rem;
+}
+
 .notice{
-  border: 1px solid black;
   margin-bottom: 1rem;
+}
+
+.notice_header{
+  background-color: #0B1942;
+  padding: 0.2rem 1rem;
+}
+
+.notice_header h3{
+  color: #fff;
+  font-weight: 100;
+}
+
+.notice_body {
+  font-size: 0.9em;
+    padding: 1rem 0;
+    line-height: 1.5;
 }
 
 #up_next{
   background-color: #0B1942;
-  color: #fff;
   margin-top: -1.3rem;
   height: auto;
   width: 95vw;
@@ -96,8 +114,11 @@ nav{
 }
 
 #up_next h1{
-  border: 1px solid white;
+  color: #fff;
   margin-top: 0;
+  padding: 0.8rem;
+  font-weight: 100;
+  font-size: 1.8em;
 }
 
 .marquee{
@@ -113,6 +134,11 @@ nav{
   flex: 1 40%;
   margin: 0.5rem;
   padding: 0;
+}
+
+.rashoman_picture img{
+  height: 28vh;
+  width: auto;
 }
 
 footer{
@@ -154,7 +180,7 @@ footer{
 
   .link_container{
     display: flex;
-    margin: -0.7rem;
+    /*margin: -0.7rem;*/
   }
 
   .nav_link{
@@ -162,6 +188,9 @@ footer{
     flex:0 1 15%;
     background-color: red;
     border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .marquee{
