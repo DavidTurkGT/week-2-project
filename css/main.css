@@ -25,7 +25,7 @@ body{
   display: block;
   background-color: #ddd;
   margin: auto;
-  width: 95vw;
+  width: 100vw;
 }
 
 nav{
@@ -34,7 +34,7 @@ nav{
   position: fixed;
   top: 0;
   height: auto;
-  width: 95vw;
+  width: 100vw;
   text-align: center;
 }
 
@@ -76,7 +76,7 @@ nav{
 
 #heading{
   background-color: #fff;
-  width: 95vw;
+  width: 100vw;
   height: auto;
   margin-top: 16vh;
   padding-bottom: 1rem;
@@ -112,7 +112,7 @@ nav{
   background-color: #0B1942;
   margin-top: -1.3rem;
   height: auto;
-  width: 95vw;
+  width: 100vw;
   padding: 1rem;
 }
 
@@ -186,7 +186,7 @@ footer{
   text-align: center;
   background-color: #7DDFE8;
   height: auto;
-  width: 95vw;
+  width: 100vw;
 }
 
 #copyright{
