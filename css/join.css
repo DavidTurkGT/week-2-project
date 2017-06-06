@@ -84,7 +84,13 @@ footer{
   width: 95vw;
 }
 
+input#profile {
+    font-size: .9rem;
+}
 
+.additional_input {
+    margin-top: 2rem;
+}
 
 /*******************/
 /***TABLET STYLES***/
@@ -105,8 +111,16 @@ footer{
     flex: 1 100%;
   }
 
-  .picture_fieldset, .form_part_1{
-    flex: 0 1 40%;
+  .picture_fieldset{
+    flex:0 1 35%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .form_part_1{
+    flex: 1 53%;
+    margin: 0;
+    padding: 0;
   }
 
   .profile_picture img{
@@ -147,12 +161,16 @@ footer{
 
   .picture_fieldset{
     flex: 0 1 35%;
+    margin: 0;
+    padding: 0;
   }
 
   .form_part_1 {
     display: flex;
     flex-wrap: wrap;
-    flex: 0 1 54%;
+    flex:1 60%;
+    margin: 0;
+    padding: 0;
   }
 
   .form_part_1 > div{
